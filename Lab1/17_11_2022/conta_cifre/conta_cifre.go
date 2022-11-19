@@ -20,14 +20,17 @@ func main(){
   var stringaInput string
   var numCifre *[10] int
   var contaStringhe int
+  
+  numCifre = new([10]int)
 
   fmt.Scan(&stringaInput)
 
-  for strings.Compare(stringaInput,"stop")!=0{
+  for stringaInput!="stop"{
     if contaCifre(stringaInput,numCifre) {
       contaStringhe+=1
     }
+  fmt.Scan(&stringaInput)
   }
-  fmt.Scan(stringaInput)
-  fmt.Println(contaStringhe,"stringhe con cifre",numCifre)
+  fmt.Println(contaStringhe,"stringhe con cifre\n[0 1 2 3 4 5 6 7 8 9]")
+  fmt.Println(*numCifre)
 }
