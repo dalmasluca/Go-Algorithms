@@ -75,7 +75,7 @@ func TestMainEsempio(t *testing.T) {
 		prog,
 		"c140 c140\nc0m3 t1 ch14m1?\nbye bye\nstop",
 		"5 stringhe con cifre\n[0 1 2 3 4 5 6 7 8 9]\n[3 5 0 1 3 0 0 0 0 0]\n",
-		"NIENTE")
+    "NIENTE")
 }
 
 func TestMainPiccolo(t *testing.T) {

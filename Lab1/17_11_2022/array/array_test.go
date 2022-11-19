@@ -1,7 +1,7 @@
 /*
 Scrivere un programma array.go dotato di:
 
-- una costante DIM per la dimensione dell'array, dichiarata a livello di package
+- una costante DIM per la dimensione dell'array, dichiarata a livello di package, maggiore o uguale a 5
 
 - una funzione main che inizializza a piacere un array di int di dimensione DIM (ad esempio con numeri 0, 1, 2, ...) e testa le due seguenti funzioni che lavorano **direttamente sull'array stesso**, senza quindi dichiarare e usare altri array. Il programma stampa l'array iniziale, l'array dopo aver invocato reverse e l'array dopo aver invocato switchFirstLast.
 
